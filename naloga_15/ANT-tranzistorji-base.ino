@@ -32,7 +32,7 @@ void loop() {
   bool H = !digitalRead(9);
 
 // TUKAJ SE LAHKO ZAČNEŠ DOTIKATI KODE
-  bool logic = AND(A, B);
+  bool logic = NOT(AND(A, AND(B, C)));
 // NAPREJ SE NE DOTIKAJ VEČ KODE
 
 #ifdef DEBUG
