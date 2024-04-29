@@ -13,9 +13,9 @@ Za zdaj se tukaj zbirajo SAMO predlogi za naloge. To NISO dokončne in izbrane n
 
 ## Kako dodati novo nalogo?
 
-Prekopiraj mapo `ANT-tranzistorji-base` v mapo v stilu `naloga_xx`, kjer je `xx` zaporedna številka naloge.
+Prekopirajo naj mapo `ANT-tranzistorji-base` v mapo v stilu `naloga_xx`, kjer je `xx` zaporedna številka naloge.
 
-Odpri `ANT-tranzistorji-base.ino` v novoustvarjeni mapi v urejevalniku besedila (tudi Visual Studio Code je v redu). Če Oni odprejo v Arduino IDE-ju, bo ta verjetno jokal in stokal, ker se ime mape ne ujema z imenom datoteke. To bo eventuelno urejeno.
+Odprejo naj datoteko `ANT-tranzistorji-base.ino` v novoustvarjeni mapi v urejevalniku besedila (tudi Visual Studio Code je v redu). Če Oni odprejo v Arduino IDE-ju, bo ta verjetno jokal in stokal, ker se ime mape ne ujema z imenom datoteke. To bo eventuelno urejeno.
 
 Najdi vrstico, ki se začne z `bool logic = `. Sem dodaj svoje zaporedje vrat po zgledu ostalih nalog. Na voljo so sledeča vrata:
 
