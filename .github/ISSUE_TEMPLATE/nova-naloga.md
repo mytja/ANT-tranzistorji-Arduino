@@ -12,4 +12,6 @@ assignees: mytja, User6022141
 <!-- Med dvema narekovajema nazaj (`) naj se vpiše rešitev naloge, kot je bila zamišljena. Ta naj bo v obliki, berljivi Ocenjevalcu, kar pomeni berljivo tudi Arduino kodi. Primer take rešitve je `AND(A, B)` ali pa `XOR(NOT(A), B)`. -->
 Rešitev naloge: ``
 
+<!-- Lahko se doda tudi screenshot iz ocenjevalca, ki pokaže izgled logičnih vrat -->
+
 <!-- Opredelitev naloge naj bo kratek opis, kako lahka/težka se zdi naloga. Možne vrednosti so "zelo lahka", "lahka", "srednja", "težka" in "zelo težka". Opredelitev naloge naj se doda v zavihek labels, nekje na tej strani -->
