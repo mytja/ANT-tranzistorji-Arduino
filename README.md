@@ -4,20 +4,11 @@ Vsa Arduino koda za delavnico za ANT 2024. Repozitorij se mora obdržati strogo 
 
 Za zdaj se tukaj zbirajo SAMO predlogi za naloge. To NISO dokončne in izbrane naloge. Čim več nalog, tem bolje bo, ker bova tako imela večjo svobodo pri izbiri ustreznih nalog.
 
-## Pomen datotek v posamezni nalogi
-
-- `ANT-tranzistorji-base.ino` – koda, ki se bo naložila na mikrokontroler ekipe. Ta koda vsebuje tudi rešitev naloge, zato jo je potrebno spremeniti za vsako nalogo posebej.
-- `README.md` – splošen opis naloge
-- `transistor-base.cpp` – C++ datoteka z definicijami logičnih vrat
-- `transistor-base.hpp` - C++ header datoteka z definicijami logičnih vrat za uporabo v `.ino` datoteki
-
 ## Kako dodati novo nalogo?
 
-Prekopirajo naj mapo `ANT-tranzistorji-base` v mapo v stilu `naloga_xx`, kjer je `xx` zaporedna številka naloge.
+Pojdejo naj na zavihek "Issues" na vrhu strani, kjer kliknejo na "New Issue", izberejo gumb "Nova naloga" in sledijo navodilom in drugim zgledom takih issujev.
 
-Odprejo naj datoteko `ANT-tranzistorji-base.ino` v novoustvarjeni mapi v urejevalniku besedila (tudi Visual Studio Code je v redu). Če Oni odprejo v Arduino IDE-ju, bo ta verjetno jokal in stokal, ker se ime mape ne ujema z imenom datoteke. To bo eventuelno urejeno.
-
-Najdi vrstico, ki se začne z `bool logic = `. Sem dodaj svoje zaporedje vrat po zgledu ostalih nalog. Na voljo so sledeča vrata:
+Na voljo so sledeča vrata:
 
 - `NOT` (edini, ki sprejme samo en signal)
 - `AND`
@@ -42,10 +33,12 @@ Na voljo je kar 8 vhodov, in sicer:
 
 Če bo kakšna naloga podvojena, ni problema. Jo bom izločil ob ročnem pregledu po dodanih nalogah.
 
-Po dodani nalogi v `.ino` datoteki naj odprejo tudi `README.md` datoteko v isti prej-ustvarjeni mapi. Naj se naslov spremeni iz `## Naloga xx` v npr. `## Naloga 16`, kjer je `xx` zaporedna številka naloge. Poleg tega se doda še rešitev, ki je lahko 100% copy-pastana iz `.ino` datoteke, razen tega, da so vhodi napisani z malo namesto z veliko.
+Naj ne pozabijo spremeniti naslova issuja. Je pomembno, da se ve, o kateri nalogi se govori. Ko končajo, naj kliknejo nek gumb, da se odda issue.
 
 ## Opredeljevanje na nalogah
 
 Priporočljivo – ne pa nujno – je opredeljevanje, tj. kako težka se Jim zdi naloga. To velja seveda zgolj za osebno subjektivno mnenje o SiOL-u, zato ni kakorkoli obvezujoče. Mnenja se seveda ne skladajo nujno, s tem pa ni nič narobe.
 
-Za opredeljevanje se zgolj doda nova vrstica v delu `Opredelitev težavnosti naloge` v `README.md` datoteki za vsako nalogo. Vrstica se doda po zgledu.
+Opredeljevanje deluje tako, da se prvo klikne na neko nalogo (v zavihku Issues), nakar se na desni strani pojavi del "Labels". Vsaka naloga naj bi že bila opredeljena s strani avtorja. Če se s to opredelitvijo ne strinjate, dodajte nov label, ki prikazuje Njihovo mnenje o nalogi. Če noben label ne ustreza željeni opredelitvi, naj se oglasijo v komentarjih, kjer lahko na dolgo in široko povejo svoje mnenje.
+
+Na koncu opredeljevanja pri vsaki nalogi naj se doda tudi label "opredeljeno". Tako se ve, da sva oba opredelila nalogo.
